@@ -4,6 +4,7 @@ function App() {
   return (
     <div className="App">
       Hallo Welt!
+      {Date.now()}
     </div>
   );
 }
