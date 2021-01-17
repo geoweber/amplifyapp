@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_USER": "admin",
+    "MONGO_PASSWORD": "Sirei0ka",
+    "MONGO_CLUSTER": "cluster0.z61jf.mongodb.net",
+    "MONGO_DB": "test"    
+  }
+}
