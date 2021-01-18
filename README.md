@@ -1,6 +1,11 @@
 # Quelle:
 - https://www.ibrahima-ndaw.com/blog/how-to-buil-a-todo-app-with-react-and-node-js/
 
+https://www.ibrahima-ndaw.com/blog/graphql-api-express-mongodb/
+
+https://stackoverflow.com/questions/61627541/how-can-i-receive-the-body-of-an-axios-post-request-with-express-nodejs
+
+
 # How To Build a Todo App with React, TypeScript, NodeJS, and MongoDB
 
 In this tutorial, we will be using TypeScript on both sides (server and client) to build a Todo App from scratch with React, NodeJS, Express, and MongoDB.

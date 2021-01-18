@@ -20,10 +20,9 @@ const addTodo = async (req: Request, res: Response): Promise<void> => {
             description: body.description,
             status: body.status,
         }) 
-
         const newTodo: ITodo = await todo.save()
         const allTodos: ITodo[] = await Todo.find()
-
+        
         res.status(201).json({ message: 'Todo added', todo: newTodo, todos: allTodos })
     } catch (error) {
         throw error

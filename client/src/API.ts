@@ -16,16 +16,19 @@ export const getTodos = async (): Promise<AxiosResponse<ApiDataType>> => {
 export const addTodo = async (
   formData: ITodo
 ): Promise<AxiosResponse<ApiDataType>> => {
+ 
   try {
     const todo: Omit<ITodo, '_id'> = {
       name: formData.name,
       description: formData.description,
       status: false,
     }
+    
     const saveTodo: AxiosResponse<ApiDataType> = await axios.post(
-      baseUrl + '/add-todo',
-      todo
+       baseUrl + '/add-todo',
+       todo
     )
+    
     return saveTodo
   } catch (error) {
     throw new Error(error)
