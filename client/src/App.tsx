@@ -16,8 +16,7 @@ const App: React.FC = () => {
       .catch((err: Error) => console.log(err))
   }
 
-  const handleSaveTodo = (e: React.FormEvent, formData: ITodo): void => {
-    e.preventDefault()
+  const handleSaveTodo = (formData: ITodo): void => {
 
     addTodo(formData)
       .then(({ status, data }) => {
