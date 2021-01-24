@@ -1,9 +1,19 @@
 # Quelle:
 - https://www.ibrahima-ndaw.com/blog/how-to-buil-a-todo-app-with-react-and-node-js/
 
-https://www.ibrahima-ndaw.com/blog/graphql-api-express-mongodb/
+- https://www.ibrahima-ndaw.com/blog/graphql-api-express-mongodb/
 
-https://stackoverflow.com/questions/61627541/how-can-i-receive-the-body-of-an-axios-post-request-with-express-nodejs
+- https://stackoverflow.com/questions/61627541/how-can-i-receive-the-body-of-an-axios-post-request-with-express-nodejs
+
+- https://masteringjs.io/tutorials/express/body
+
+# Github
+https://github.com/geoweber/amplifyapp/tree/master
+
+# AWS
+https://console.aws.amazon.com/amplify/home
+
+https://master.dfrlaw76hisrh.amplifyapp.com/
 
 
 # How To Build a Todo App with React, TypeScript, NodeJS, and MongoDB
